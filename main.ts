@@ -73,3 +73,5 @@ return a+b
                 return point.x+point.y
              }
              console.log(adding2(p));
+
+            

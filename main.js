@@ -53,3 +53,12 @@ function adding2(point) {
     return point.x + point.y;
 }
 console.log(adding2(p));
+var Greater = /** @class */ (function () {
+    function Greater(message) {
+        this.greeting = message;
+    }
+    Greater.prototype.greet = function () {
+        return "hello," + this.greeting;
+    };
+    return Greater;
+}());
